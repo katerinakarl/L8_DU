@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+ 
+
+  <title>Minutka</title>
+</head>
+
+<body>
+<div class="budik">
+<p> Počet vteřin do spuštění alarmu: </p>
+<div id="alarmVstup"></div>
+
+<p>
+<button onclick="mute(event)" class="tlacitko">Vypni budík</button>
+</p>
+</div>
+	
+<audio class="prehravac" src="assets/alarm.mp3" preload="auto"> </audio>
+
+<div class="container">
+<div class="alarm"></div>
+</div>
+<script type="module" src="index.js"></script>
+</body>
+
+</html>
+
